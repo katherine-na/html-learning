@@ -1,22 +1,26 @@
 # HTML Learning
 ## What's HTML?
-Es el lenguaje de marcas de hipertexto, nos permite darle la estructura básica a una página web y darle contenido como: 
+Es el lenguaje de marcado, que nos permite darle la estructura básica a una página web o darle la estructura al contenido como:
 - Texto
 - Imagenes 
 - Videos
 - Listas
 
 ## What’s HTML used for?
-Para crear y estructurar secciones, parrafos y enlaces utilizando elementos, etiquetas, atributos, etc.
+Para crear la estructura de contenido con ayuda de etiquetas de HTML.
 
 ## Structure of a HTML Document
-- !Doctype
-- html
-- head
-- body
-- /head
-- /body
--/ html
+
+---
+<!Doctype>
+<html>
+  <head>
+  </head>
+  <body>
+      Contenido
+  </body>
+ </html>
+---
 
 ## What are HTML Tags?
 Se utiliza para indicar el principio y el final de un elemento HTML en un documento HTML.

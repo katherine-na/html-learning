@@ -45,3 +45,11 @@ mi github </a>
 
 ## What are HTML global attributes?
 Son atributos comunes a todos los elementos HTML; se pueden usar en todos los elementos.
+
+lista de atributos globales
+
+style
+class
+id
+
+

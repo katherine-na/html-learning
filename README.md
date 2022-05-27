@@ -79,7 +79,7 @@ contentditable              inputmode               itemscope           style
 contextmenu                 id                      itemtype            tabindex
 
 ```
-![source](https://www.htmlquick.com/es/reference/attributes.html#:~:text=Los%20atributos%20son%20un%20mecanismo,o%20configuraciones%20para%20los%20elementos.
+[source](https://www.htmlquick.com/es/reference/attributes.html#:~:text=Los%20atributos%20son%20un%20mecanismo,o%20configuraciones%20para%20los%20elementos)
 
 
 

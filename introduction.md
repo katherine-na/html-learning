@@ -18,6 +18,7 @@ La estructura de un documento HTML es el conjunto de elementos que caracterizan 
   </head>
   <body>
       Contenido
+    <button></button>
   </body>
  </html>
 ```

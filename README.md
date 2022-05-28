@@ -24,28 +24,19 @@ La estructura de un documento HTML es el conjunto de elementos que caracterizan 
 
 ## What are HTML Tags?
 Se utiliza para indicar el principio y el final de un elemento HTML en un documento HTML. Estas etiquetas dan instrucciones al navegador web sobre cómo mostrar el texto. Por ejemplo:
-```
-  1. <!DOCTYPE>  
-        Sirve para definir el tipo de documento
-  2. <html></html>
-        Define un documento HTML
-  3.<head></head>
-        Dentro se escribe información sobre el documento
-  4. <title></title>
-        Para escribir el título del documento. Se escriben dentro de <head>
-  5. <body></body>	
-        Justo después de </head>. Es el contenedor del documento
-  6. <h1></h1>, <h2></h2> hasta <h6></h6>	
-        Para crear títulos de párrafos, de más importante <h1> a menos <h6>
-  7. <p></p>	
-        Los párrafos de texto de nuestro documento
-  8. <br>	
-        Un salto de línea simple
-  9. <hr>	
-        Salto de línea que indica un cambio de temática entre párrafos
-  10. <a></a>	
-        Podremos escribir enlaces a otras páginas  
-``` 
+
+| Etiqueta       |                   Descripción                |
+|:-----------   | :-------------                               |
+|```<!DOCTYPE>```| Sirve para definir el tipo de documento|
+|```<html></html>```|Define un documento HTML|
+|```<head></head>```|Dentro se escribe información sobre el documento|
+|```<title></title>```|Para escribir el título del documento. Se escriben dentro de ```<head>```|
+|```<body></body>```|Justo después de ```</head>``` Es el contenedor del documento|
+|```<h1></h1> hasta <h6></h6>```|Para crear títulos de párrafos, de más importante a menos|
+|```<p></p>```|Los párrafos de texto de nuestro documento|
+|```<br>```|Un salto de línea simple|
+|```<hr>```|Salto de línea que indica un cambio de temática entre párrafos|
+|```<a></a>```|Podremos escribir enlaces a otras páginas|
 
 ## What’s a HTML empty element?
 Una etiqueta/elemento vacia es un elemento de HTML que no lleva una etiqueta de cierre, solo pueden acabar con " />". Por ejemplo:
@@ -60,16 +51,35 @@ Aunque no tiene etiqueta de cierre, no afecta a las demas que si tienen etiqueta
 
 ## What are HTML attributes?
 Son palabras especiales utilizadas dentro de la etiqueta de apertura, esto para añadir, complementar información o significado al elemento HTML al que estamos colocando y así controlar el comportamiento del elemento. Por ejemplo:
-```
-img src="fuente"/>          width="ancho"          height="altura"          class="Identificador" 
-lang="lenguaje"             id="unico"             href ="enlaces":         align="alinear"
-background-color="fondo"    style="estilo"
 
+| Atributo| Descripción|
+| :-------| :--------- |
+|src | Señala la fuente| 
+|lang | Indica el lenguaje |
+|width| Modifica el ancho |
+|height| Modifica la altura |
+|background-color| Cambia el color del fondo |
+|id | Da una identificación unica |
+|style | Le da estilo |
+|href | Señala el enlace |
+|class | Identifica |
+|align | Sirve para alinear |
+```
 Ejemplo:   <a href="https://github.com/katherine-na" disabled <p style="color:pink; font-size: 20px">mi titulo de html</p>
 ```
 ## What are HTML global attributes?
 Son atributos comunes a todos los elementos HTML; se pueden usar en todos los elementos. 
 Atributos globales.
+
+| Atributos globales | Definición |
+| :--------- | :--------|
+| lang | Indica el lenguaje |
+| class | Identifica |
+| title | 
+| style |
+| input |
+
+
 ```
 acceskey                    dir                     is                  lang                  title
 autocapitalize              draggable               itemid              nonce                 translate
@@ -80,6 +90,7 @@ contextmenu                 id                      itemtype            tabindex
 
 ```
 [source](https://www.htmlquick.com/es/reference/attributes.html#:~:text=Los%20atributos%20son%20un%20mecanismo,o%20configuraciones%20para%20los%20elementos)
+
 
 
 

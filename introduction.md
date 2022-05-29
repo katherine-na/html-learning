@@ -94,6 +94,7 @@ contextmenu                 id                      itemtype            tabindex
 
 
 # Formularios
+
 | Input type="" | Qué es? |
 | :-------  | :-------|
 | text | Crea un campo de texto en una linea |
@@ -119,5 +120,13 @@ contextmenu                 id                      itemtype            tabindex
 | url | Unicamente para links |
 | week | Selecciona semanas |
 
-|
+# Elementos de formularios 
+
+| Elemento | Quê es? | 
+| :----- | :----- |
+|  label | Etiqueta |
+| select | Seleccionas la opción que quieres |
+| textare | Crea un area de texto | 
+| button | Crea un boton |
+| datalist | Crea una lista y autocompleta |
 

@@ -93,5 +93,31 @@ contextmenu                 id                      itemtype            tabindex
 [source](https://www.htmlquick.com/es/reference/attributes.html#:~:text=Los%20atributos%20son%20un%20mecanismo,o%20configuraciones%20para%20los%20elementos)
 
 
+# Formularios
+| Input type="" | Qué es? |
+| :-------  | :-------|
+| text | Crea un campo de texto en una linea |
+| mail | Solicita un correo real |
+| password | Solicita una contraseña |
+| submit | Boton que envia los datos |
+| reset | Recetea el formulario |
+| radio | Define un boton de opción |
+| checkbox | Define una casilla de verificación |
+| button | Crea un boton |
+| color | Aparece un selector de color |
+| date | Selecciona fechas |
+| time | Selecciona la hora |
+| datetime-local | Selecciona la fecha y la hora local |
+| month | Selecciona un mes |
+| file | Puedes cargar archivos y subirlos |
+| hidden | Sirve para ocultar |
+| image | Puedes colocar una imagen |
+| number | Permite escribir números |
+| range | Selecciona un valor mediante un control deslizante |
+| search | Puedes hacer busquedas | 
+| tel | Unicamente para telefonos |
+| url | Unicamente para links |
+| week | Selecciona semanas |
 
+|
 

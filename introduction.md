@@ -133,6 +133,8 @@ contextmenu                 id                      itemtype            tabindex
 | rows | Este atributo especifica el número visible de líneas en un área de texto |
 | cols| Este atributo especifica el ancho visible de un área de texto |
 | ```<button>``` | Define un botón en el que se puede hacer clic|
+|```<fieldset>``` | Se utiliza para agrupar datos relacionados en un formulario.
+|```<legend>``` | Define un título para el ```<fieldset>``` elemento |
 | datalist | Crea una lista y autocompleta |
 
 

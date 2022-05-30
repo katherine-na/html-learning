@@ -26,7 +26,7 @@ La estructura de un documento HTML es el conjunto de elementos que caracterizan 
 ## What are HTML Tags?
 Se utiliza para indicar el principio y el final de un elemento HTML en un documento HTML. Estas etiquetas dan instrucciones al navegador web sobre cómo mostrar el texto. Por ejemplo:
 
-| Etiqueta       |                   Descripción                |
+| Etiqueta      |                   Descripción               |
 |:-----------   | :-------------                               |
 |```<!DOCTYPE>```| Sirve para definir el tipo de documento|
 |```<html></html>```|Define un documento HTML|
@@ -124,25 +124,28 @@ contextmenu                 id                      itemtype            tabindex
 
 | Elemento | Qué es? | 
 | :----- | :----- |
-| label | Es una etiqueta para darle un nombre al input |
-| select | Puedes seleccionar la opción que desees |
-| textare | Crea un area de texto |
-| button | Crea un boton |
+| ```<label>``` | Este elemento define una etiqueta para varios elementos de formulario |
+| ```<select>``` | Este elemento define una lista desplegable |
+| option | Los elementos ```<option>``` definen una opción que se puede seleccionar |
+| size | Este atributo especifica el número de valores visibles | 
+| multiple | Este atributo permite que el usuario seleccione más de un valor |
+| ```<textare>``` | Define un campo de entrada de varias líneas (un área de texto)|
+| rows | Este atributo especifica el número visible de líneas en un área de texto |
+| cols| Este atributo especifica el ancho visible de un área de texto |
+| ```<button>``` | Define un botón en el que se puede hacer clic|
 | datalist | Crea una lista y autocompleta |
 
 
 # Atributos de Formulario
 
-| Atributo | | Qué es? |
-| :---------- | :---------| 
-|accept-charset | Especifica las codificaciones de caracteres utilizadas para el envío de formularios |
-|action | Especifica dónde enviar los datos del formulario cuando se envía un formulario |
-|autocomplete | Especifica si un formulario debe tener la función de autocompletar activada o desactivada |
-|enctype | Especifica cómo se deben codificar los datos del formulario al enviarlos al servidor (solo para method="post") |
-|method | Especifica el método HTTP a utilizar al enviar datos de formulario |
-|name | Especifica el nombre del formulario |
-|novalidate | Especifica que el formulario no debe validarse cuando se envía |
-|rel | Especifica la relación entre un recurso vinculado y el documento actual |
-|target | Especifica dónde mostrar la respuesta que se recibe después de enviar el formulario |
-
-
+| Atributo   | Qué es?   |
+| :----------| :-----    | 
+| accept-charset | Especifica las codificaciones de caracteres utilizadas para el envío de formularios |
+| action | Especifica dónde enviar los datos del formulario cuando se envía un formulario |
+| autocomplete | Especifica si un formulario debe tener la función de autocompletar activada o desactivada |
+| enctype | Especifica cómo se deben codificar los datos del formulario al enviarlos al servidor (solo para method="post") |
+| method | Especifica el método HTTP a utilizar al enviar datos de formulario |
+| name | Especifica el nombre del formulario |
+| novalidate | Especifica que el formulario no debe validarse cuando se envía |
+| rel | Especifica la relación entre un recurso vinculado y el documento actual |
+| target | Especifica dónde mostrar la respuesta que se recibe después de enviar el formulario |

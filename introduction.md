@@ -133,6 +133,8 @@ contextmenu                 id                      itemtype            tabindex
 
 # Atributos de Formulario
 
+| Atributo | | Qué es? |
+| :---------- | :---------| 
 |accept-charset | Especifica las codificaciones de caracteres utilizadas para el envío de formularios |
 |action | Especifica dónde enviar los datos del formulario cuando se envía un formulario |
 |autocomplete | Especifica si un formulario debe tener la función de autocompletar activada o desactivada |

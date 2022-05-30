@@ -122,11 +122,25 @@ contextmenu                 id                      itemtype            tabindex
 
 # Elementos de formularios 
 
-| Elemento | Quê es? | 
+| Elemento | Qué es? | 
 | :----- | :----- |
-|  label | Etiqueta |
-| select | Seleccionas la opción que quieres |
-| textare | Crea un area de texto | 
+| label | Es una etiqueta para darle un nombre al input |
+| select | Puedes seleccionar la opción que desees |
+| textare | Crea un area de texto |
 | button | Crea un boton |
 | datalist | Crea una lista y autocompleta |
+
+
+# Atributos de Formulario
+
+|accept-charset | Especifica las codificaciones de caracteres utilizadas para el envío de formularios |
+|action | Especifica dónde enviar los datos del formulario cuando se envía un formulario |
+|autocomplete | Especifica si un formulario debe tener la función de autocompletar activada o desactivada |
+|enctype | Especifica cómo se deben codificar los datos del formulario al enviarlos al servidor (solo para method="post") |
+|method | Especifica el método HTTP a utilizar al enviar datos de formulario |
+|name | Especifica el nombre del formulario |
+|novalidate | Especifica que el formulario no debe validarse cuando se envía |
+|rel | Especifica la relación entre un recurso vinculado y el documento actual |
+|target | Especifica dónde mostrar la respuesta que se recibe después de enviar el formulario |
+
 

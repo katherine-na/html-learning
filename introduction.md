@@ -80,16 +80,6 @@ Atributos globales.
 | style |
 | input |
 
-
-```
-acceskey                    dir                     is                  lang                  title
-autocapitalize              draggable               itemid              nonce                 translate
-autocomplete                enterkeyhint            itemprop            slot                  dropzone
-class                       hidden                  itemref             spellcheck
-contentditable              inputmode               itemscope           style
-contextmenu                 id                      itemtype            tabindex
-
-```
 [source](https://www.htmlquick.com/es/reference/attributes.html#:~:text=Los%20atributos%20son%20un%20mecanismo,o%20configuraciones%20para%20los%20elementos)
 
 
@@ -135,8 +125,8 @@ contextmenu                 id                      itemtype            tabindex
 | ```<button>``` | Define un botón en el que se puede hacer clic|
 |```<fieldset>``` | Se utiliza para agrupar datos relacionados en un formulario.
 |```<legend>``` | Define un título para el ```<fieldset>``` elemento |
-| datalist | Especifica una lista de opciones predefinidas |
-| output | Representa el resultado de un cálculo |
+| ```<datalist>``` | Especifica una lista de opciones predefinidas |
+| ```<output>``` | Representa el resultado de un cálculo |
 
 
 # Atributos de Formulario

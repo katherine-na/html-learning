@@ -135,7 +135,8 @@ contextmenu                 id                      itemtype            tabindex
 | ```<button>``` | Define un botón en el que se puede hacer clic|
 |```<fieldset>``` | Se utiliza para agrupar datos relacionados en un formulario.
 |```<legend>``` | Define un título para el ```<fieldset>``` elemento |
-| datalist | Crea una lista y autocompleta |
+| datalist | Especifica una lista de opciones predefinidas |
+| output | Representa el resultado de un cálculo |
 
 
 # Atributos de Formulario

@@ -1,5 +1,5 @@
 # CSS Introduction
-CSS is the language we use to style a Web page.
+CSS es el lenguaje que usamos para diseñar una página web.
 
 ## What's CSS?
 CSS significa hojas de estilo en cascada, describe cómo se deben mostrar los elementos HTML en la pantalla.

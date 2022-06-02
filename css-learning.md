@@ -14,8 +14,41 @@ CSS significa hojas de estilo en cascada, describe cómo se deben mostrar los el
  
 ![](http://www.naiarafernandez.com/wp-content/uploads/2016/05/css-sintaxis.png)
 
-## What’s a CSS selector?
+## What’s a CSS selector?  
 Selecciona los elementos HTML que desea diseñar.
 Podemos dividir los selectores de CSS en cinco categorías:
--
 
+| Categoría | Descripción |
+| :------- |:------- |
+| Selectores simples | selecciona elementos basados en nombre, id, clase |
+| Selectores combinadores | Selecciona elementos en función de una relación específica entre ellos |
+| Selectores de pseudoclase | Selecciona elementos en función de un determinado estado |
+| Selectores de pseudoelementos | Selecciona y diseñar una parte de un elemento |
+| Selectores de atributos | Seleccionar elementos en función de un atributo o valor de atributo |
+
+## What are CSS properties?
+Permiten asignar un valor a otras propiedades de CSS al mismo tiempo.
+
+## How to add CSS (three ways to insert CSS) -> External CSS, Internal CSS, Inline CSS
+- External CSS  
+Se definen dentro del elemento <link>, dentro de la sección <head> de una página HTML:
+```
+ <link rel="stylesheet" href="mystyle.css">
+```
+ 
+ -Internal CSS  
+ Se definen dentro del elemento <style>, dentro de la sección <head> de una página HTML:
+```
+<head>
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+</head>
+```

@@ -36,7 +36,7 @@ Se definen dentro del elemento <link>, dentro de la sección <head> de una pági
  <link rel="stylesheet" href="mystyle.css">
 ```
  
- -Internal CSS  
+ - Internal CSS  
  Se definen dentro del elemento <style>, dentro de la sección <head> de una página HTML:
 ```
 <head>
@@ -51,4 +51,9 @@ h1 {
 }
 </style>
 </head>
+```
+- Inline CSS
+ Se definen dentro del atributo "estilo" del elemento relevante:
+ ```
+ <p style="color:red;">This is a paragraph.</p>
 ```

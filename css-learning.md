@@ -5,6 +5,7 @@ CSS es el lenguaje que usamos para diseñar una página web.
 CSS significa hojas de estilo en cascada, describe cómo se deben mostrar los elementos HTML en la pantalla.
 
 ## What’s CSS used for?
+Es usado para presentar los documentos a los usuarios: cómo se diseñan, se organizan, se seccionan, etc.
 
 ## CSS Syntax
 - El selector apunta al elemento HTML que desea diseñar.
